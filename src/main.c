@@ -2,6 +2,7 @@
 #include "dichotomie.h"
 #include "knapsack.h"
 #include "assert.h"
+#include "pgcb.h"
 
 int main()
 {
@@ -33,6 +34,7 @@ int main()
 	
 	// exo 3
 
-	
+	create_matrice();
+
 	return (0);
 }
