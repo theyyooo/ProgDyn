@@ -34,7 +34,10 @@ int main()
 	
 	// exo 3
 
-	create_matrice();
+	int taille = 3;
+
+	int matrice = create_matrice(taille);
+	show_matrice(matrice, taille);
 
 	return (0);
 }
